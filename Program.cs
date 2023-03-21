@@ -18,7 +18,8 @@ namespace Fungsi_Terbilang
         {
             x = Math.Abs(x);
             string[] angka = new string[] {"", "satu", "dua", "tiga", "empat", "lima", "enam", "tujuh", "delapan", "sembilan", "sepuluh", "sebelas"};
-            string temp = "";
+            string temp = string.Empty;
+
             if (x < 12)
                 temp = " " + angka[(int)x];            
             else if (x < 20)
